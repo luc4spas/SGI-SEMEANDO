@@ -42,7 +42,7 @@
                             <tbody>
                                 <tr>
                                 <th scope="row">{{ $ps->name }}</th>                            
-                                <td></td>   
+                                <td>{{ $ps->QTD }}</td>   
                                 <td><a href="{{ route('show',$ps->name) }}" class="btn btn-sm btn-primary">Saber Mais</a></td>                          
                                
             
